@@ -140,7 +140,7 @@ I will add a data table from my data.csv file below:
   data={{ url: 'data.csv' }} 
   title="C02 PPM per decade" 
   xAxis="year"
-  yAxis="value"
+  yAxis={["co2", "test", "test2"]}
   color="key"
 />
 
